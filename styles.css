@@ -22,3 +22,16 @@ button {
     padding: 10px;
     font-size: 16px;
 }
+.navbar {
+    background-color: #db9334; /* Color de fondo del navbar */
+    padding: 15px;
+    color: #fff; /* Color del texto en el navbar */
+}
+input {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #db9334;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+}
