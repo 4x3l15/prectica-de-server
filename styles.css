@@ -4,8 +4,12 @@ body {
 }
 
 .conteiner{
-    display: flex;
-    background-color: #ecb246;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat( 3,50%);
+    margin-top: 5%;
+    margin-right: 35%;
+    background-color: #f0a83b;
 }
 
 h1 {
