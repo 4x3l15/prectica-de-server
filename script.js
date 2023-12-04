@@ -1,9 +1,19 @@
+// script.js
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM cargado');
 
-
-const miBoton = document.getElementById('miBoton');
+    var miBoton = document.getElementById('miBoton');
     miBoton.addEventListener('click', function() {
-        alert('¡Botón clicado!');
+        // Obtener los valores de los inputs
+        var nombre = document.getElementById('nombre').value;
+        var apellido = document.getElementById('apellido').value;
+        var edad = document.getElementById('edad').value;
+
+        // Mostrar los valores en la consola
+        console.log('Nombre:', nombre);
+        console.log('Apellido:', apellido);
+        console.log('Edad:', edad);
+
+        // Aquí puedes agregar lógica adicional, como enviar los datos a un servidor, etc.
     });
 });
