@@ -1,7 +1,11 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+.conteiner{
+    display: flex;
+    background-color: #ecb246;
 }
 
 h1 {
