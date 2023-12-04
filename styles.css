@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+.conteiner{
+background-color: #e0bb8a;
+}
+
 h1 {
     display: flex;
     color: #3498db;
