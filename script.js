@@ -13,7 +13,7 @@ mongoose.connect('mongodb+srv://bdiaz:unodostres@clusterr.xffnu0h.mongodb.net/',
 .catch((err) =>{
     console.error('error al conectar el servidor :'+err) 
 });
-  
+
 app.listen(port, () => {
     console.log('hola, el servidor anda');
   });
