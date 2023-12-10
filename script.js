@@ -3,7 +3,7 @@ const app = ('');
 const mongoose = require('mongoose');
 const port= 3000
 
-mongoose.connect('mongodb+srv://bdiaz:unodostres@clusterr.xffnu0h.mongodb.net/',{
+mongoose.connect('mongodb+srv://adramirez:4x3l__15@clusterr.xffnu0h.mongodb.net/',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
 })
